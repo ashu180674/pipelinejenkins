@@ -28,5 +28,14 @@ echo "test the code"
 
 }
 
+
+stage('production'){
+steps{
+
+echo "production environment"
+}
+}
+
+
 }
 }
